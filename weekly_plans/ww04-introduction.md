@@ -20,7 +20,24 @@ Pratical and learning goals for the period is as follows
   * Level 3: The student can follow the process described in NIST 800-39 to create the inital framework for security risk management
 
 ## Deliverable
-* TBD
+* Presentations:
+  * Everybody must present an article found online.
+  * It is mandatory as in "don't do it and don't go to the exam".
+  * It is individual.
+  * See table on fronter for when you are to present.
+  * Article is of your chosing. It must relate to IT security
+  * 5 slides no text, ie. approx 10 minutes
+  * generic TOC:
+    * Hi I am ...
+    * The article is about ... and I found it on...
+    * Looking at it from a *Tiers* persepctive...
+    * Looking at it from a risk perspective ...
+      * Threat sources, vulnerabilities, impact and so on
+    * Detection
+    * Incident handling
+      * Control to implement, ie. risk handling: transfer, avoid, share, accept, mitigate
+    * Relation to our project, if applicable
+    * Questions and contact info
 
 ## Comments
 * Exercises are [here](../materials/ww04-exercises.md)
