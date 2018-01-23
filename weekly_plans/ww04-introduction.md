@@ -25,3 +25,4 @@ Pratical and learning goals for the period is as follows
 ## Comments
 * Exercises are [here](../materials/ww04-exercises.md)
 * We need to decide how to handle hand-ins this semester.
+* [NIST SP 800-39](http://dx.doi.org/10.6028/NIST.SP.800-39)
