@@ -20,7 +20,8 @@ Pratical and learning goals for the period is as follows
   * Level 3: The student can do a risk assessment working on all tiers and active use it in projects and operations.
   
 ## Deliverable
-* Some students will do presentaitons ths week. Please check schedule on fronter and the requirements from [week 4](ww04-introduction.md)
+* Some students will do presentaitons ths week. Please check [schedule on fronter](https://fronter.com/eal/links/files.phtml/1261825527$31048836$/2nd+Semester/IT+Security/ITT2+ITS+presentations.pdf)  and the requirements from [week 4](ww04-introduction.md)
+* The Docs group will present the HLD and the LLD, so we all are up to speed.
 
 ## Comments
 * Exercises are [here](../materials/ww05-exercises.md)
