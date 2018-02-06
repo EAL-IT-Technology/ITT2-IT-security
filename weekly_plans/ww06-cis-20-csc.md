@@ -12,10 +12,10 @@ Pratical and learning goals for the period is as follows
 * Students have downloaded the CIS 20 CSC v. 6.1
 
 ### Learning goals
-*     • CIS 20 CSC1
-        ◦ level 1: know the importance and general structure of the CSC20
-        ◦ level 2: able to use CSC20 as a tool in security planning 
-        ◦ level 3: able to use CSC20 to structure implementation of security in system.
+* CIS 20 CSC1
+  * level 1: know the importance and general structure of the CSC20
+  * level 2: able to use CSC20 as a tool in security planning 
+  * level 3: able to use CSC20 to structure implementation of security in system.
         
 ## Deliverable
 * Some students will do presentaitons ths week. 
