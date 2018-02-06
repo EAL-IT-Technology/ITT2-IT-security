@@ -10,6 +10,8 @@ Pratical and learning goals for the period is as follows
 
 ### Practical goals
 * Students have downloaded the CIS 20 CSC v. 6.1
+* Since MON was absent last week, we will do a risk assessment discussion to ensure that we are in agreement.
+  * yes, it will evolve around [figure 3 in NIST SP 800-30](http://dx.doi.org/10.6028/NIST.SP.800-30r1#page=21)
 
 ### Learning goals
 * CIS 20 CSC1
