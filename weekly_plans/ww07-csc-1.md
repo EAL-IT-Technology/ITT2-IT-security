@@ -14,6 +14,7 @@ Pratical and learning goals for the period is as follows
   * default is to join "security"
   * team missing? talk to @moozer
   * team leader decide on who is in their groups
+* please ensure that any issue you are assigned to are finalized
 
 ### Learning goals
 * CSC 1: Inventory of Authorized and Unauthorized Devices
@@ -30,3 +31,4 @@ Pratical and learning goals for the period is as follows
 ## Comments
 * Exercises are [here](../materials/ww07-exercises.md)
 * [CIS 20 critical controls](https://www.cisecurity.org/controls/)
+
