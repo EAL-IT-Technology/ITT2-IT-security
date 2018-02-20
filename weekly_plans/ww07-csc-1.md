@@ -18,12 +18,12 @@ Pratical and learning goals for the period is as follows
 
 ### Learning goals
 * CSC 1: Inventory of Authorized and Unauthorized Devices
-  * level 1: know why inventory of devices is important 
-  * level 2: able to explain the purpose of the control and the subcontrols
+  * level 1: know why inventory of devices is important
+  * level 2: able to explain the purpose of CSC1 and the subcontrols
   * level 3: able to use CSC1 actively in network security planning
 
 ## Deliverable
-* Some students will do presentaitons ths week. 
+* Some students will do presentaitons ths week.
     * Please check [schedule on fronter](https://fronter.com/eal/links/files.phtml/1261825527$31048836$/2nd+Semester/IT+Security/ITT2+ITS+presentations.pdf)  and the requirements from [week 4](ww04-introduction.md)
     * Presentations at 12:30
     * MON will present something on installing hardware - since we forgot last week
@@ -31,4 +31,3 @@ Pratical and learning goals for the period is as follows
 ## Comments
 * Exercises are [here](../materials/ww07-exercises.md)
 * [CIS 20 critical controls](https://www.cisecurity.org/controls/)
-
