@@ -21,8 +21,10 @@ Workstations, and Servers
 ## Deliverable
 * Some students will do presentaitons ths week.
     * Please check [schedule on fronter](https://fronter.com/eal/links/files.phtml/1261825527$31048836$/2nd+Semester/IT+Security/ITT2+ITS+presentations.pdf)  and the requirements from [week 4](ww04-introduction.md)
-    * Presentations at 12:30
+    * Presentations Friday after we have discussed the CSC
 
 ## Comments
 * Exercises are [here](../materials/ww09-exercises.md)
 * [CIS 20 critical controls](https://www.cisecurity.org/controls/)
+* We decided last week to do the CSCs on Fridays to leave Thursday for the project.
+* Thursday Bjarne SLipsager we show up and do some field research on how github/gitlab works for students. It is part of an ongoing project about online teaching.
