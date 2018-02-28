@@ -11,6 +11,7 @@ Pratical and learning goals for the period is as follows
 ### Practical goals
 * Everybody must associated to a group
   * If no group fits, create a new (relevant) one
+* Everybody who has presented will upload their slides to [here](https://gitlab.com/ITT-17A/18S_ITS/tree/development/docs/organisation/Article%20Presentation)
 
 ### Learning goals
 * CSC 3: Secure Configurations for Hardware and Software on Mobile Devices, Laptops,
