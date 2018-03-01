@@ -30,3 +30,4 @@ Workstations, and Servers
 * [CIS 20 critical controls](https://www.cisecurity.org/controls/)
 * We decided last week to do the CSCs on Fridays to leave Thursday for the project.
 * Thursday Bjarne SLipsager we show up and do some field research on how github/gitlab works for students. It is part of an ongoing project about online teaching.
+* MON wil reiterate why we do the project and the relationship between risk assessments, formulating plans and implementation.
