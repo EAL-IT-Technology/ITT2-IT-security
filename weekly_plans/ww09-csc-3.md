@@ -31,3 +31,7 @@ Workstations, and Servers
 * We decided last week to do the CSCs on Fridays to leave Thursday for the project.
 * Thursday Bjarne SLipsager we show up and do some field research on how github/gitlab works for students. It is part of an ongoing project about online teaching.
 * MON wil reiterate why we do the project and the relationship between risk assessments, formulating plans and implementation.
+* Next week we have hacker jeopardy
+  * Form groups and talk to the compute science people (look in B2.03)
+* Did you notice [this](https://fronter.com/eal/news/index.phtml?action=read_news&news_id=41128&readid=41128&from_page=4&popup=1)?
+  
