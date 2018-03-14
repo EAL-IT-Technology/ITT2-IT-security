@@ -12,7 +12,6 @@ Each group will get one of the subcontrols
 * (bonus) how to implement?
 
 ## Exercise 1 (option 2)
-(in 9 groups)
 
 Form groups and do one the following tasks
 * CSC5 rundown
