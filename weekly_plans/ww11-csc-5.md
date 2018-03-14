@@ -9,7 +9,9 @@ Initials: MON
 Pratical and learning goals for the period is as follows
 
 ### Practical goals
-* None
+* Have meetings (with minutes) in each group
+ * this includes the steering committee (where, as agreed last week, I will not be attending)
+
 
 ### Learning goals
 * CSC 5: Controlled Use of Administrative Privileges
