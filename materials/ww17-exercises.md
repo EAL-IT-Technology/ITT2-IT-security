@@ -9,7 +9,7 @@ By yourselves
 3. Formulate 5 questions
 
 With teacher
-3. Finding answers to questions
+1. Finding answers to questions
 
 
 ## Exercise/work 1: pack B - 1-1½ hours
