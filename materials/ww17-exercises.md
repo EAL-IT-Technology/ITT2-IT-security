@@ -7,9 +7,10 @@ By yourselves
 1. Browser chapter 3
 2. With your neighbour go through the quiz at the end of the chapter
 3. Formulate 5 questions
+
 With teacher
 3. Finding answers to questions
-4.
+
 
 ## Exercise/work 1: pack B - 1-1½ hours
 We will work with chapter 3 access control, and ensure that we understand the important parts.
