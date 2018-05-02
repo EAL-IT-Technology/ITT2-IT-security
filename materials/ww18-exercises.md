@@ -1,4 +1,4 @@
-# exercises for week 17: SSCP domain 1
+# exercises for week 18: SSCP domain 2
 
 Exercise 1 is done in pairs
 
