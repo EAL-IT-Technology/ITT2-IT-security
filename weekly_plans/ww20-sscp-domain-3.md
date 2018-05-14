@@ -27,7 +27,7 @@ Please revisit learning goals from [week 4](ww04-introduction.md) and [week 5](w
 ## Deliverable/schedule
 * Hand-in exercise 1 where you make a kahoot like the other weeks.
 * Exercise 2 is about Risk in our system, and we will discuss that on class in week 21
-* Hand-in on [fronter](https://fronter.com/eal/links/structureprops.phtml?treeid=289043)
+* Hand-in on [fronter](https://fronter.com/eal/links/structureprops.phtml?treeid=289241)
 
 ## Comments
 * Exercises are [here](../materials/ww20-exercises.md)
