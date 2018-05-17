@@ -3,6 +3,7 @@ import io
 # from os.path import basename, splitext
 import glob
 import csv
+import sys
 
 source_dir = "../weekly_plans"
 
@@ -40,23 +41,23 @@ def write_multi_row(writer, weeks, content):
         ws = parse_range(weeks)
         writer.writerow([ws[0], content])
         for w in ws[1:]:
-            writer.writerow([w, content+" (cont.)"])
+            writer.writerow([w, content + " (cont.)"])
 
 
 # Loop through all files
 fieldnames = ['Week', 'Content']
-with open('names.csv', 'w') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow(fieldnames)
+# with open(sys.stdout, 'w') as csvfile:
+writer = csv.writer(sys.stdout)
+writer.writerow(fieldnames)
 
-    for fname in sorted(glob.glob(source_dir + '/*.md')):
-        try:
-            post = read_md(fname)
-            print fname
-            write_multi_row(writer, post['Week'], post['Content'])
-        except KeyError:
-            print "- file {} missing key. (one of '{}')".format(fname, fieldnames)
-            pass
-        except ValueError:
-            print "- Non-numeric week (was: {})".format(post['Week'])
-            pass
+for fname in sorted(glob.glob(source_dir + '/*.md')):
+    try:
+        post = read_md(fname)
+        print >> sys.stderr, fname
+        write_multi_row(writer, post['Week'], post['Content'])
+    except KeyError:
+        print >> sys.stderr, "- file {} missing key. (one of '{}')".format(fname, fieldnames)
+        pass
+    except ValueError:
+        print >> sys.stderr, "- Non-numeric week (was: {})".format(post['Week'])
+        pass
