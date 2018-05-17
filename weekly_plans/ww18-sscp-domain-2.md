@@ -1,6 +1,6 @@
 ---
 Week: 18
-Content: SSCP domain 2: Security operations and administration
+Content: SSCP domain 2 - Security operations and administration
 Material: SSCP book chapter 4
 Initials: MON
 ---

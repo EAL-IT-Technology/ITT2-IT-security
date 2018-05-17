@@ -1,6 +1,6 @@
 ---
 Week: 20
-Content: SSCP domain 3: Networks and communications
+Content: SSCP domain 3 - Networks and communications
 Material: SSCP book chapter 5
 Initials: MON
 ---

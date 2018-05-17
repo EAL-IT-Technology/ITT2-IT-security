@@ -1,6 +1,6 @@
 ---
 Week: 19
-Content: SSCP domain 6: Networks and communications
+Content: SSCP domain 6 - Networks and communications
 Material: SSCP book chapter 8
 Initials: MON
 ---

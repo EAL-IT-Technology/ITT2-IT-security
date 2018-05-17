@@ -1,6 +1,6 @@
 ---
 Week: 17
-Content: SSCP domain 1: Access control
+Content: SSCP domain 1 - Access control
 Material: SSCP book chapter 3
 Initials: MON
 ---
