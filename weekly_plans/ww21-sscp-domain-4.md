@@ -11,7 +11,7 @@ Initials: MON
 * Have your work from previous weeks ready
 * Work with chapter 6 in the SSCP book (1 hrs, K3)
 
-### Tursday:
+### Thursday:
 * 8.15-9:00 Previous domains (K1)
   * Let's kahoot - see links below
   * Does kahoot work for you? (most did not make questions...)
