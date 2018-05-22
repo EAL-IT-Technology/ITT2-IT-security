@@ -12,7 +12,10 @@ Initials: MON
 * Work with chapter 6 in the SSCP book (1 hrs, K3)
 
 ### Thursday:
-* 8.15-9:00 Previous domains (K1)
+* 8.15-8:30 Some introduction/comments
+  * Quick rundown of Weekly plan - new format!! extra informative!! coolness max!!
+  * The student activity model 
+* 8.30-9:00 Previous domains (K1)
   * Let's kahoot - see links below
   * Does kahoot work for you? (most did not make questions...)
   * What was easy/difficult?
