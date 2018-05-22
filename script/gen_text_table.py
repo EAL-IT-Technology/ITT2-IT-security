@@ -19,7 +19,7 @@ def output_tex_from_file(filename):
 def gen_dict(first_week, last_week):
     res = {}
     for ww in range(first_week, last_week + 1):
-        res[str(ww)] = {'week': ww}
+        res[str(ww)] = {'Week': ww}
 
     return res
 
@@ -41,10 +41,41 @@ def merge_content(table, new_entries, col_name):
     return table
 
 
+def get_headers(table):
+    return table[table.keys()[0]].keys()
+
+
+def get_tex_begin_tabular(headers):
+    string = '\\begin {tabular} {c'
+
+    for h in headers:
+        if h == 'Week':
+            continue
+        string += ' | l'
+
+    string += '}'
+    return string
+
+
+def get_tex_headers(headers):
+    string = '\\textbf {Week}'
+
+    for h in headers:
+        if h == 'Week':
+            continue
+        string += ' & \\textbf {{{}}}'.format(h)
+
+    string += ' \\\\'
+    return string
+
+
 def output_text_table_from_dict(table):
     print('\\begin {table}[h!]')
-    print('  \\begin {tabular} {l | c | r}')
-    print('    \\textbf{Value 1} & \\textbf{Value 2} & \\textbf{Value 3}\\\\ ')
+
+    headers = get_headers(table)
+    print'  ', get_tex_begin_tabular(headers)
+    print'    ', get_tex_headers(headers)
+
     print('    \\hline')
 
     print('1 & 1110.1 & a \\\\ ')
