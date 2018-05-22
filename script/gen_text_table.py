@@ -45,13 +45,13 @@ def get_headers(table):
     return table[table.keys()[0]].keys()
 
 
-def get_tex_begin_tabular(headers):
+def get_tex_begin_tabular(headers, col_width = '5cm'):
     string = '\\begin {tabular} {c'
 
     for h in headers:
         if h == 'Week':
             continue
-        string += ' | l'
+        string += ' | p{{{}}}'.format(col_width)
 
     string += '}'
     return string
@@ -69,18 +69,29 @@ def get_tex_headers(headers):
     return string
 
 
+def get_tex_row(line):
+    string = str(line['Week'])
+
+    for key in line.keys():
+        if key == 'Week':
+            continue
+        string += ' & {}'.format(line[key])
+
+    string += ' \\\\'
+    return string
+
+
 def output_text_table_from_dict(table):
     print('\\begin {table}[h!]')
 
     headers = get_headers(table)
-    print'  ', get_tex_begin_tabular(headers)
+    print'  ', get_tex_begin_tabular(headers, '7cm')
     print'    ', get_tex_headers(headers)
 
-    print('    \\hline')
+    print'    ', '\\hline'
 
-    print('1 & 1110.1 & a \\\\ ')
-    print('1 & 1110.1 & a \\\\ ')
-    print('1 & 1110.1 & a \\\\ ')
+    for week in table:
+        print'    ', get_tex_row(table[week])
 
     print('  \\end {tabular}')
     print('\\end {table}')
