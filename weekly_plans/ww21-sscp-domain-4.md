@@ -12,7 +12,7 @@ Initials: MON
 * Work with chapter 6 in the SSCP book (1 hrs, K3)
 
 ### Thursday:
-* 8.15-8:30 Some introduction/comments
+* 8.15-8:30 Some introduction/comments (K1)
   * Quick rundown of Weekly plan - new format!! extra informative!! coolness max!!
   * The student activity model 
 * 8.30-9:00 Previous domains (K1)
