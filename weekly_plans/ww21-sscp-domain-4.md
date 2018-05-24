@@ -40,7 +40,7 @@ Initials: MON
   * includes discussion on incidents and incident handling
 * 9:00-10:00 Student presentations (K4)
   * Following [the schedule](https://fronter.com/eal/links/files.phtml/1261825527$31048836$/2nd+Semester/IT+Security/ITT2+ITS+presentations.pdf), we have 4-5 presentations
-* 10:00-11:45 You-time
+* 10:00-11:45 You-time (K4)
   * MON is available to see presentations, help in general or whatever else you find appropriate
     * ITS takes precedence, but I'll help as I can with whatever you bring
   * If there are no questions or activities, I'll leave early
