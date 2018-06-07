@@ -14,7 +14,7 @@ Initials: MON
 * 8.15-8:45 Recap of past weeks (K1)
   * A word on the setup we made for the workshop Wednesday
   * What have we been doing?
-* 8.45-9:30 Crypto status (K2)
+* 8.45-9:30 App sec status (K2)
   * This relates a lot to the CSCs.
   * Find examples of overlap between the CSCs and Domain 7
   * 5 slides/no text
