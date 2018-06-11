@@ -46,7 +46,8 @@ def get_headers(table):
 
 
 def get_tex_begin_longtable(headers, col_width='5cm'):
-    string = '\\begin {longtable} {c'
+    string = '\\begin {longtable} {'
+    string += ' p{{{}}}'.format('1.5cm')
 
     for h in headers:
         if h == 'Week':
@@ -85,7 +86,8 @@ def output_text_table_from_dict(table):
     #    print('\\begin {longtable}')
 
     headers = get_headers(table)
-    print get_tex_begin_longtable(headers, '7.5cm')
+    col_width = (29.7-2*2.0-2.0)/(len(headers)-1)
+    print get_tex_begin_longtable(headers, '{:.1f}cm'.format(col_width))
     print' ', get_tex_headers(headers)
 
     print' ', '\\hline'
