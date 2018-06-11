@@ -113,7 +113,7 @@ def output_tex_table_from_csv(filelist):
 if __name__ == "__main__":
     output_tex_from_file(tex_header_file)
 
-    filelist = glob.glob('./*.csv')
+    filelist = glob.glob('data/*.csv')
     output_tex_table_from_csv(filelist)
 
     output_tex_from_file(tex_footer_file)
