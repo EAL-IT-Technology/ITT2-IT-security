@@ -7,7 +7,11 @@ tex_header_file = "tex_header.tex"
 tex_footer_file = "tex_footer.tex"
 
 week_no_start = 4
-week_no_end = 24
+week_no_end = 26
+
+escape_table = {"-": r"\-", "]": r"\]", "\\": r"\\",
+                "^": r"\^", "$": r"\$", "*": r"\*",
+                ":": r"\:", "&": r"\&"}
 
 
 def output_tex_from_file(filename):
@@ -29,7 +33,8 @@ def read_from_csv(filename):
         res = []
         reader = csv.DictReader(f)
         for entry in reader:
-            res.append((entry['Week'], entry['Content']))
+            esc_content = entry['Content'].translate(str.maketrans(escape_table))
+            res.append((entry['Week'], esc_content))
 
         return res
 
@@ -42,7 +47,7 @@ def merge_content(table, new_entries, col_name):
 
 
 def get_headers(table):
-    return table[table.keys()[0]].keys()
+    return table[list(table.keys())[0]].keys()
 
 
 def get_tex_begin_longtable(headers, col_width='5cm'):
@@ -86,16 +91,16 @@ def output_text_table_from_dict(table):
     #    print('\\begin {longtable}')
 
     headers = get_headers(table)
-    col_width = (29.7-2*2.0-2.0)/(len(headers)-1)
-    print get_tex_begin_longtable(headers, '{:.1f}cm'.format(col_width))
-    print' ', get_tex_headers(headers)
+    col_width = (29.7 - 2 * 2.0 - 2.0) / (len(headers) - 1)
+    print(get_tex_begin_longtable(headers, '{:.1f}cm'.format(col_width)))
+    print(' ', get_tex_headers(headers))
 
-    print' ', '\\hline'
-    print' ', '\\endhead'
+    print(' ', '\\hline')
+    print(' ', '\\endhead')
 
     for week in range(week_no_start, week_no_end + 1):
-        print' ', get_tex_row(table[str(week)])
-        print' ', '\\hline'
+        print(' ', get_tex_row(table[str(week)]))
+        print(' ', '\\hline')
 
     print('\\end {longtable}')
 
@@ -113,7 +118,7 @@ def output_tex_table_from_csv(filelist):
 if __name__ == "__main__":
     output_tex_from_file(tex_header_file)
 
-    filelist = glob.glob('data/*.csv')
-    output_tex_table_from_csv(filelist)
+    csv_files = glob.glob('data/*.csv')
+    output_tex_table_from_csv(csv_files)
 
     output_tex_from_file(tex_footer_file)
