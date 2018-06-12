@@ -1,7 +1,8 @@
 ---
 Week: 05
 Content: Risk assessments
-Material: [NIST SP 800-30](http://dx.doi.org/10.6028/NIST.SP.800-30r1)
+Material: NIST SP 800-30
+Material_url: http://dx.doi.org/10.6028/NIST.SP.800-30r1
 Initials: MON
 ---
 

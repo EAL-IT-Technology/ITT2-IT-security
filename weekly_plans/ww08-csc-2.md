@@ -1,7 +1,8 @@
 ---
 Week: 08
 Content: CIS 20 - CSC1 inventory of software
-Material: [CIS 20 critical controls](https://www.cisecurity.org/controls/)
+Material: CIS 20 critical controls
+Material_url: https://www.cisecurity.org/controls/
 Initials: MON
 ---
 

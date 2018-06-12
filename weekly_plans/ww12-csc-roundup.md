@@ -1,7 +1,8 @@
 ---
 Week: 12
 Content: CIS 20
-Material: [CIS 20 critical controls](https://www.cisecurity.org/controls/)
+Material: CIS 20 critical controls
+Material_url: https://www.cisecurity.org/controls/
 Initials: MON
 ---
 

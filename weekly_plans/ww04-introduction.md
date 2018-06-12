@@ -1,7 +1,8 @@
 ---
 Week: 04
 Content: Introduction
-Material: [NIST SP 800-39](http://dx.doi.org/10.6028/NIST.SP.800-39)
+Material: NIST SP 800-39
+Material_url: http://dx.doi.org/10.6028/NIST.SP.800-39
 Initials: MON
 ---
 
