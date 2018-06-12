@@ -11,7 +11,7 @@ week_no_end = 26
 
 escape_table = {"-": r"\-", "]": r"\]", "\\": r"\\",
                 "^": r"\^", "$": r"\$", "*": r"\*",
-                ":": r"\:", "&": r"\&"}
+                "&": r"\&", "?": r"{?}"}
 
 
 def output_tex_from_file(filename):
@@ -20,9 +20,9 @@ def output_tex_from_file(filename):
             print(line)
 
 
-def gen_dict(first_week, last_week):
+def gen_dict(weeklist):
     res = {}
-    for ww in range(first_week, last_week + 1):
+    for ww in weeklist:
         res[str(ww)] = {'Week': ww}
 
     return res
@@ -39,7 +39,10 @@ def read_from_csv(filename):
         return res
 
 
-def merge_content(table, new_entries, col_name):
+def merge_content(table, new_entries, col_name, week_list):
+    for ww in week_list:
+        table[str(ww)][col_name] = ""
+
     for week, content in new_entries:
         table[str(week)][col_name] = content
 
@@ -91,7 +94,7 @@ def output_text_table_from_dict(table):
     #    print('\\begin {longtable}')
 
     headers = get_headers(table)
-    col_width = (29.7 - 2 * 2.0 - 2.0) / (len(headers) - 1)
+    col_width = (29.7 - 2 * 2.0 - 2.0 - 2.0) / (len(headers) - 1)
     print(get_tex_begin_longtable(headers, '{:.1f}cm'.format(col_width)))
     print(' ', get_tex_headers(headers))
 
@@ -105,12 +108,12 @@ def output_text_table_from_dict(table):
     print('\\end {longtable}')
 
 
-def output_tex_table_from_csv(filelist):
-    table_content = gen_dict(week_no_start, week_no_end)
+def output_tex_table_from_csv(filelist, week_list):
+    table_content = gen_dict(week_list)
     for filename in filelist:
         entries = read_from_csv(filename)
         col_name = '.'.join(os.path.basename(filename).split('.')[:-1])
-        table_content = merge_content(table_content, entries, col_name)
+        table_content = merge_content(table_content, entries, col_name, week_list)
 
     output_text_table_from_dict(table_content)
 
@@ -119,6 +122,6 @@ if __name__ == "__main__":
     output_tex_from_file(tex_header_file)
 
     csv_files = glob.glob('data/*.csv')
-    output_tex_table_from_csv(csv_files)
+    output_tex_table_from_csv(csv_files, week_list=range(week_no_start, week_no_end + 1))
 
     output_tex_from_file(tex_footer_file)
