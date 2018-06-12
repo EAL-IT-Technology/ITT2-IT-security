@@ -1,0 +1,23 @@
+Week,Content
+4,Chapter 1: What Is the Shell? Chapter 2: Navigation
+5,Chapter 3: Exploring the System. Chapter 4: Manipulating Files and Directories
+6,Chapter 5: Working with Commands. Chapter 6: Redirection. Chapter 7: Seeing the World as the Shell Sees It
+7,The Linux logging system. Chapter 8: Advanced Keyboard Tricks. Chapter 9: Permissions. Chapter 10: Processes
+8,The Linux logging system. Chapter 11: The Environment. Chapter 12: A Gentle Introduction to vi. Skip this chapter and use nano!. Chapter 13: Customizing the Prompt
+9,rsyslog local logging. Filters and templates
+10,rsyslog remote log server. Juniper syslog
+11,Log parsing in Python
+12,Logstash ELK Stack.
+13,Lecturer free week. Easter holiday
+14,Elasticsearch ELK Stack.
+15,Kibana ELK Stack.
+16,Sick
+17,Holiday
+18,bash scripts
+19,Holiday
+20,cron and crontab
+21,logrotate
+22,Linux as a switch
+23,Review
+26,Exam
+
